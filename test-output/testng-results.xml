@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-05T12:09:57Z" name="Default suite" finished-at="2024-04-05T12:11:06Z" duration-ms="68859">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.parallelScenariosRunner@1500b2f3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-04-05T12:09:57Z" name="Default test" finished-at="2024-04-05T12:11:06Z" duration-ms="68859">
+      <class name="parallel.parallelScenariosRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:parallel.parallelScenariosRunner@1500b2f3]" started-at="2024-04-05T12:09:57Z" name="setUpClass" finished-at="2024-04-05T12:09:57Z" duration-ms="654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.parallelScenariosRunner@1500b2f3]" started-at="2024-04-05T12:09:57Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-05T12:10:12Z" duration-ms="14452" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To test whether the patient can login with the credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[To the login Functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.parallelScenariosRunner@1500b2f3]" started-at="2024-04-05T12:09:57Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-05T12:10:12Z" duration-ms="14503" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To test whether the doctor can login with the credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[To the login Functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.parallelScenariosRunner@1500b2f3]" started-at="2024-04-05T12:09:57Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-05T12:10:12Z" duration-ms="14188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To test whether the nurse can login with the credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[To the login Functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.parallelScenariosRunner@1500b2f3]" started-at="2024-04-05T12:09:57Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-05T12:10:12Z" duration-ms="14272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To test whether the pharmacist can login with the credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[To the login Functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.parallelScenariosRunner@1500b2f3]" started-at="2024-04-05T12:09:57Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-05T12:11:03Z" duration-ms="65906" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add the prescription for the patient"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[To test the entire doctor module]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:parallel.parallelScenariosRunner@1500b2f3]" started-at="2024-04-05T12:11:03Z" name="tearDownClass" finished-at="2024-04-05T12:11:06Z" duration-ms="2255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- parallel.parallelScenariosRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
